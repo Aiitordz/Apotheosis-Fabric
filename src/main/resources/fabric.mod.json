@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "apotheosis",
+  "version": "1.21.9-fabric",
+  "name": "Apotheosis (Fabric Port)",
+  "description": "Port of Apotheosis from NeoForge to Fabric.",
+  "authors": [ "Shadows_of_Fire", "Port by <tu_nombre>" ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.apotheosis.ApothMain"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.9",
+    "fabric-api": "*"
+  }
+}
